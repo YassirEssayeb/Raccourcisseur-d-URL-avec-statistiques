@@ -6,6 +6,16 @@ import {
   BarChart, Bar, Legend,
 } from 'recharts';
 
+function useIsMobile() {
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 480);
+  useEffect(() => {
+    const handler = () => setIsMobile(window.innerWidth < 480);
+    window.addEventListener('resize', handler);
+    return () => window.removeEventListener('resize', handler);
+  }, []);
+  return isMobile;
+}
+
 export default function Dashboard() {
   const { user, logout } = useAuth();
   const [links, setLinks] = useState([]);
@@ -13,6 +23,8 @@ export default function Dashboard() {
   const [selectedLink, setSelectedLink] = useState(null);
   const [showForm, setShowForm] = useState(false);
   const [toast, setToast] = useState(null);
+  const [deleteConfirm, setDeleteConfirm] = useState(null);
+  const isMobile = useIsMobile();
 
   const [url, setUrl] = useState('');
   const [customSlug, setCustomSlug] = useState('');
@@ -74,10 +86,13 @@ export default function Dashboard() {
   };
 
   const handleDelete = async (id) => {
-    await api.delete(`/links/${id}`);
-    if (selectedLink === id) { setSelectedLink(null); setStats(null); }
-    fetchLinks();
-    showToast('Lien supprimé');
+    try {
+      await api.delete(`/links/${id}`);
+      if (selectedLink === id) { setSelectedLink(null); setStats(null); }
+      fetchLinks();
+      showToast('Lien supprimé');
+    } catch {}
+    setDeleteConfirm(null);
   };
 
   const viewStats = async (id) => {
@@ -158,9 +173,17 @@ export default function Dashboard() {
                         {link.expires_at ? <span className="badge badge-expires">Expire le {new Date(link.expires_at).toLocaleDateString()}</span> : null}
                       </div>
                     </div>
-                    <button className="btn-danger" onClick={(e) => { e.stopPropagation(); handleDelete(link.id); }}>
-                      Supprimer
-                    </button>
+                    {deleteConfirm === link.id ? (
+                      <div className="delete-confirm">
+                        <span className="delete-confirm-text">Confirmer ?</span>
+                        <button className="btn-danger-sm" onClick={(e) => { e.stopPropagation(); handleDelete(link.id); }}>Oui</button>
+                        <button className="btn-cancel" onClick={(e) => { e.stopPropagation(); setDeleteConfirm(null); }}>Non</button>
+                      </div>
+                    ) : (
+                      <button className="btn-danger" onClick={(e) => { e.stopPropagation(); setDeleteConfirm(link.id); }}>
+                        Supprimer
+                      </button>
+                    )}
                   </div>
                 ))}
               </div>
@@ -182,13 +205,13 @@ export default function Dashboard() {
               {chartData.length > 0 && (
                 <div className="chart-container">
                   <h3>Clics par jour (7 derniers jours)</h3>
-                  <ResponsiveContainer width="100%" height={250}>
+                  <ResponsiveContainer width="100%" height={isMobile ? 180 : 250}>
                     <LineChart data={chartData}>
                       <CartesianGrid strokeDasharray="3 3" />
-                      <XAxis dataKey="date" />
-                      <YAxis allowDecimals={false} />
+                      <XAxis dataKey="date" tick={{ fontSize: isMobile ? 11 : 12 }} />
+                      <YAxis allowDecimals={false} tick={{ fontSize: isMobile ? 11 : 12 }} />
                       <Tooltip contentStyle={{ background: '#ffffff', border: '1px solid #e2e8f0', borderRadius: '8px', color: '#0f172a' }} />
-                      <Line type="monotone" dataKey="clics" stroke="#14b8a6" strokeWidth={2.5} dot={{ fill: '#14b8a6', r: 4 }} activeDot={{ r: 6 }} />
+                      <Line type="monotone" dataKey="clics" stroke="#14b8a6" strokeWidth={isMobile ? 2 : 2.5} dot={{ fill: '#14b8a6', r: isMobile ? 2 : 4 }} activeDot={{ r: isMobile ? 4 : 6 }} />
                     </LineChart>
                   </ResponsiveContainer>
                 </div>
@@ -197,13 +220,13 @@ export default function Dashboard() {
               {stats.countries?.length > 0 && (
                 <div className="chart-container">
                   <h3>Pays d'origine</h3>
-                  <ResponsiveContainer width="100%" height={200}>
+                  <ResponsiveContainer width="100%" height={isMobile ? 160 : 200}>
                     <BarChart data={stats.countries}>
                       <CartesianGrid strokeDasharray="3 3" />
-                      <XAxis dataKey="country" />
-                      <YAxis allowDecimals={false} />
+                      <XAxis dataKey="country" tick={{ fontSize: isMobile ? 10 : 12 }} />
+                      <YAxis allowDecimals={false} tick={{ fontSize: isMobile ? 11 : 12 }} />
                       <Tooltip contentStyle={{ background: '#ffffff', border: '1px solid #e2e8f0', borderRadius: '8px', color: '#0f172a' }} />
-                      <Legend />
+                      <Legend wrapperStyle={{ fontSize: isMobile ? 11 : 13 }} />
                       <Bar dataKey="count" name="Clics" fill="#14b8a6" radius={[4, 4, 0, 0]} />
                     </BarChart>
                   </ResponsiveContainer>
