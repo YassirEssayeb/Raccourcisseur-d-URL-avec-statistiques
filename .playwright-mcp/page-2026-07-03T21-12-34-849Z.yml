@@ -1,0 +1,481 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "S ShortLink" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e7]: S
+        - generic [ref=e8]: ShortLink
+      - navigation [ref=e9]:
+        - link "Fonctionnalites" [ref=e10] [cursor=pointer]:
+          - /url: "#features"
+        - link "Tarifs" [ref=e11] [cursor=pointer]:
+          - /url: "#pricing"
+        - link "Statistiques" [ref=e12] [cursor=pointer]:
+          - /url: "#demo"
+        - link "Blog" [ref=e13] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e14]:
+        - link "Connexion" [ref=e15] [cursor=pointer]:
+          - /url: /login
+        - link "Essai gratuit" [ref=e16] [cursor=pointer]:
+          - /url: /register
+          - text: Essai gratuit
+          - img [ref=e17]
+  - main [ref=e19]:
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e25]:
+          - img [ref=e26]
+          - text: Nouvelle generation de liens courts
+        - heading "Raccourcissez vos liens, decuplez vos insights" [level=1] [ref=e29]
+        - paragraph [ref=e31]: Des liens courts en un clic, des statistiques poussees en temps reel. Le tout dans un tableau de bord concu pour les equipes marketing et les createurs.
+        - generic [ref=e33]:
+          - textbox "Collez votre URL ici..." [ref=e34]
+          - button "Raccourcir" [ref=e35]
+        - generic [ref=e37]:
+          - img [ref=e38]
+          - generic [ref=e40]: shortlink.fr/ete-2024
+          - img [ref=e41] [cursor=pointer]
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - img [ref=e46]
+            - text: Instantane
+          - generic [ref=e49]:
+            - img [ref=e50]
+            - text: Analytics temps reel
+          - generic [ref=e53]:
+            - img [ref=e54]
+            - text: QR code inclus
+      - generic [ref=e58]:
+        - generic [ref=e60]: Tableau de bord
+        - generic [ref=e61]:
+          - generic [ref=e62]:
+            - heading "Vue d'ensemble" [level=3] [ref=e63]
+            - generic [ref=e64]: +18.3% vs mois dernier
+          - generic [ref=e65]:
+            - generic [ref=e66]:
+              - generic [ref=e67]: Clics
+              - generic [ref=e68]: 12,847
+            - generic [ref=e69]:
+              - generic [ref=e70]: Liens actifs
+              - generic [ref=e71]: "342"
+            - generic [ref=e72]:
+              - generic [ref=e73]: Conversion
+              - generic [ref=e74]: 4.2%
+          - generic [ref=e76]:
+            - generic [ref=e77]: Clics (30 derniers jours)
+            - generic [ref=e78]: +2,847
+          - generic [ref=e79]:
+            - generic [ref=e80]:
+              - generic [ref=e81]:
+                - img [ref=e82]
+                - generic [ref=e84]: Geographie
+              - generic [ref=e85]:
+                - generic [ref=e86]:
+                  - generic [ref=e87]: France
+                  - generic [ref=e89]: 47%
+                - generic [ref=e90]:
+                  - generic [ref=e91]: Belgique
+                  - generic [ref=e93]: 18%
+                - generic [ref=e94]:
+                  - generic [ref=e95]: Suisse
+                  - generic [ref=e97]: 12%
+            - generic [ref=e98]:
+              - generic [ref=e99]:
+                - img [ref=e100]
+                - generic [ref=e102]: Appareils
+              - generic [ref=e103]:
+                - generic [ref=e104]:
+                  - generic [ref=e105]: Desktop
+                  - generic [ref=e107]: 62%
+                - generic [ref=e108]:
+                  - generic [ref=e109]: Mobile
+                  - generic [ref=e111]: 38%
+    - generic [ref=e113]:
+      - paragraph [ref=e114]: Utilise par des equipes du monde entier
+      - generic [ref=e115]:
+        - generic [ref=e116]:
+          - generic [ref=e117]: 10M+
+          - generic [ref=e118]: Liens crees
+        - generic [ref=e119]:
+          - generic [ref=e120]: 500K+
+          - generic [ref=e121]: Utilisateurs actifs
+        - generic [ref=e122]:
+          - generic [ref=e123]: 150+
+          - generic [ref=e124]: Pays couverts
+        - generic [ref=e125]:
+          - generic [ref=e126]: 2.3B+
+          - generic [ref=e127]: Clics analyses
+    - generic [ref=e129]:
+      - generic [ref=e130]:
+        - generic [ref=e131]: Fonctionnalites
+        - heading "Tout ce dont vous avez besoin pour maitriser vos liens" [level=2] [ref=e132]
+        - paragraph [ref=e133]: Raccourcissez, personnalisez, analysez. ShortLink reunit tous les outils essentiels dans un seul tableau de bord.
+      - generic [ref=e134]:
+        - generic [ref=e136]:
+          - img [ref=e138]
+          - heading "Raccourcissement instantane" [level=3] [ref=e140]
+          - paragraph [ref=e141]: Creez un lien court en une fraction de seconde. Pas de compte necessaire pour un lien rapide.
+        - generic [ref=e143]:
+          - img [ref=e145]
+          - heading "Statistiques en temps reel" [level=3] [ref=e147]
+          - paragraph [ref=e148]: Suivez les clics, la geographie, les appareils et les sources en direct depuis votre tableau de bord.
+        - generic [ref=e150]:
+          - img [ref=e152]
+          - heading "QR codes automatiques" [level=3] [ref=e154]
+          - paragraph [ref=e155]: Chaque lien court genere automatiquement un QR code telechargeable pour vos campagnes print.
+        - generic [ref=e157]:
+          - img [ref=e159]
+          - heading "Liens personnalises" [level=3] [ref=e161]
+          - paragraph [ref=e162]: Marquez vos liens avec votre propre nom de domaine et des slugs sur mesure pour renforcer votre marque.
+        - generic [ref=e164]:
+          - img [ref=e166]
+          - heading "Securite avancee" [level=3] [ref=e168]
+          - paragraph [ref=e169]: Protegez vos liens par mot de passe et definissez des dates d'expiration pour un controle total.
+        - generic [ref=e171]:
+          - img [ref=e173]
+          - heading "API pour developpeurs" [level=3] [ref=e175]
+          - paragraph [ref=e176]: Integrez ShortLink a vos outils avec notre API REST documentee et nos SDK officiels.
+    - generic [ref=e178]:
+      - generic [ref=e179]:
+        - generic [ref=e180]: Guide
+        - heading "3 etapes pour tout changer" [level=2] [ref=e181]
+        - paragraph [ref=e182]: Pas de courbe d'apprentissage. Debutant ou expert, vous serez operationnel en 30 secondes.
+      - generic [ref=e183]:
+        - generic [ref=e188]:
+          - img [ref=e190]
+          - generic [ref=e192]: "01"
+          - heading "Collez votre URL" [level=3] [ref=e193]
+          - paragraph [ref=e194]: Copiez le lien long que vous souhaitez raccourcir et collez-le dans le champ prevu a cet effet.
+        - generic [ref=e199]:
+          - img [ref=e201]
+          - generic [ref=e203]: "02"
+          - heading "Personnalisez (optionnel)" [level=3] [ref=e204]
+          - paragraph [ref=e205]: Choisissez un slug personnalise, ajoutez un mot de passe ou une date d'expiration selon vos besoins.
+        - generic [ref=e210]:
+          - img [ref=e212]
+          - generic [ref=e214]: "03"
+          - heading "Partagez et suivez" [level=3] [ref=e215]
+          - paragraph [ref=e216]: Publiez votre lien court et observez les statistiques en temps reel depuis votre tableau de bord.
+    - generic [ref=e218]:
+      - generic [ref=e219]:
+        - generic [ref=e220]: Demo
+        - heading "Des statistiques qui parlent d'elles-memes" [level=2] [ref=e221]
+        - paragraph [ref=e222]: Tableau de bord interactif avec vue temps reel, historique et segmentation multi-criteres.
+      - generic [ref=e224]:
+        - generic [ref=e226]: shortlink.fr/dashboard/analytics
+        - generic [ref=e227]:
+          - generic [ref=e228]:
+            - generic [ref=e229]:
+              - generic [ref=e230]: Clics totaux
+              - generic [ref=e231]: 12,847
+              - generic [ref=e232]: +18.3%
+            - generic [ref=e233]:
+              - generic [ref=e234]: Clics aujourd'hui
+              - generic [ref=e235]: "384"
+              - generic [ref=e236]: +7.2%
+            - generic [ref=e237]:
+              - generic [ref=e238]: Taux de clic moyen
+              - generic [ref=e239]: 4.2%
+              - generic [ref=e240]: +0.8%
+            - generic [ref=e241]:
+              - generic [ref=e242]: Liens actifs
+              - generic [ref=e243]: "342"
+              - generic [ref=e244]: "+12"
+          - generic [ref=e245]:
+            - heading "Evolution des clics" [level=4] [ref=e247]
+            - generic [ref=e248]:
+              - heading "Repartition par appareil" [level=4] [ref=e249]
+              - generic [ref=e250]:
+                - generic [ref=e252]:
+                  - generic [ref=e253]: Desktop
+                  - generic [ref=e254]: 62%
+                - generic [ref=e257]:
+                  - generic [ref=e258]: Mobile
+                  - generic [ref=e259]: 32%
+                - generic [ref=e262]:
+                  - generic [ref=e263]: Tablette
+                  - generic [ref=e264]: 6%
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - generic [ref=e269]: Tarifs
+        - heading "Un plan pour chaque besoin" [level=2] [ref=e270]
+        - paragraph [ref=e271]: Commencez gratuitement, passez a un plan superieur quand vous etes pret.
+      - generic [ref=e272]:
+        - generic [ref=e274]:
+          - generic [ref=e275]:
+            - heading "Gratuit" [level=3] [ref=e276]
+            - generic [ref=e277]:
+              - generic [ref=e278]: 0€
+              - text: /mois
+            - paragraph [ref=e279]: Pour demarrer et tester ShortLink.
+          - list [ref=e280]:
+            - listitem [ref=e281]:
+              - img [ref=e282]
+              - text: 50 liens max
+            - listitem [ref=e284]:
+              - img [ref=e285]
+              - text: 1 000 clics/mois
+            - listitem [ref=e287]:
+              - img [ref=e288]
+              - text: Stats basiques
+            - listitem [ref=e290]:
+              - img [ref=e291]
+              - text: Slug aleatoire
+            - listitem [ref=e293]:
+              - img [ref=e294]
+              - text: Support par email
+          - link "Commencer" [ref=e296] [cursor=pointer]:
+            - /url: /register
+        - generic [ref=e298]:
+          - generic [ref=e299]: Le plus populaire
+          - generic [ref=e300]:
+            - heading "Pro" [level=3] [ref=e301]
+            - generic [ref=e302]:
+              - generic [ref=e303]: 12€
+              - text: /mois
+            - paragraph [ref=e304]: Pour les marketeurs et createurs de contenu.
+          - list [ref=e305]:
+            - listitem [ref=e306]:
+              - img [ref=e307]
+              - text: Liens illimites
+            - listitem [ref=e309]:
+              - img [ref=e310]
+              - text: 100 000 clics/mois
+            - listitem [ref=e312]:
+              - img [ref=e313]
+              - text: Stats avancees temps reel
+            - listitem [ref=e315]:
+              - img [ref=e316]
+              - text: Slug personnalise
+            - listitem [ref=e318]:
+              - img [ref=e319]
+              - text: QR codes illimites
+            - listitem [ref=e321]:
+              - img [ref=e322]
+              - text: Protection par mot de passe
+            - listitem [ref=e324]:
+              - img [ref=e325]
+              - text: Export CSV
+            - listitem [ref=e327]:
+              - img [ref=e328]
+              - text: Support prioritaire
+          - link "Essai gratuit de 14 jours" [ref=e330] [cursor=pointer]:
+            - /url: /register
+        - generic [ref=e332]:
+          - generic [ref=e333]:
+            - heading "Business" [level=3] [ref=e334]
+            - generic [ref=e335]:
+              - generic [ref=e336]: 49€
+              - text: /mois
+            - paragraph [ref=e337]: Pour les equipes et les entreprises.
+          - list [ref=e338]:
+            - listitem [ref=e339]:
+              - img [ref=e340]
+              - text: Tout le plan Pro
+            - listitem [ref=e342]:
+              - img [ref=e343]
+              - text: Clics illimites
+            - listitem [ref=e345]:
+              - img [ref=e346]
+              - text: Domaine personnalise
+            - listitem [ref=e348]:
+              - img [ref=e349]
+              - text: API complete
+            - listitem [ref=e351]:
+              - img [ref=e352]
+              - text: Roles et permissions
+            - listitem [ref=e354]:
+              - img [ref=e355]
+              - text: SSO
+            - listitem [ref=e357]:
+              - img [ref=e358]
+              - text: SLA garanti
+            - listitem [ref=e360]:
+              - img [ref=e361]
+              - text: Account manager dedie
+          - link "Contacter les ventes" [ref=e363] [cursor=pointer]:
+            - /url: /register
+    - generic [ref=e365]:
+      - generic [ref=e366]:
+        - generic [ref=e367]: Temoignages
+        - heading "Ils utilisent ShortLink au quotidien" [level=2] [ref=e368]
+      - generic [ref=e369]:
+        - generic [ref=e371]:
+          - generic [ref=e372]:
+            - img [ref=e373]
+            - img [ref=e375]
+            - img [ref=e377]
+            - img [ref=e379]
+            - img [ref=e381]
+          - paragraph [ref=e383]: “ShortLink a transforme notre suivi de campagnes. Les statistiques en temps reel nous permettent d'ajuster nos actions instantanement.”
+          - generic [ref=e384]:
+            - generic [ref=e385]: SM
+            - generic [ref=e386]:
+              - generic [ref=e387]: Sophie Moreau
+              - generic [ref=e388]: Responsable Marketing Digital, TechCorp France
+        - generic [ref=e390]:
+          - generic [ref=e391]:
+            - img [ref=e392]
+            - img [ref=e394]
+            - img [ref=e396]
+            - img [ref=e398]
+            - img [ref=e400]
+          - paragraph [ref=e402]: “Je cree des dizaines de liens chaque semaine. Le tableau de bord est clair, les QR codes automatiques sont un vrai plus.”
+          - generic [ref=e403]:
+            - generic [ref=e404]: AB
+            - generic [ref=e405]:
+              - generic [ref=e406]: Alexandre Blanc
+              - generic [ref=e407]: Community Manager, MediaPlus
+        - generic [ref=e409]:
+          - generic [ref=e410]:
+            - img [ref=e411]
+            - img [ref=e413]
+            - img [ref=e415]
+            - img [ref=e417]
+            - img [ref=e419]
+          - paragraph [ref=e421]: “La protection par mot de passe nous sauve pour les campagnes privees. L'API nous a permis d'automatiser tout notre workflow.”
+          - generic [ref=e422]:
+            - generic [ref=e423]: CD
+            - generic [ref=e424]:
+              - generic [ref=e425]: Clara Dubois
+              - generic [ref=e426]: Fondatrice, EcomBox
+        - generic [ref=e428]:
+          - generic [ref=e429]:
+            - img [ref=e430]
+            - img [ref=e432]
+            - img [ref=e434]
+            - img [ref=e436]
+            - img [ref=e438]
+          - paragraph [ref=e440]: “Une API propre et bien documentee. Je l'ai integree a mon outil de reporting en moins d'une heure.”
+          - generic [ref=e441]:
+            - generic [ref=e442]: ML
+            - generic [ref=e443]:
+              - generic [ref=e444]: Marc Lefevre
+              - generic [ref=e445]: Developpeur Full-Stack, Freelance
+    - generic [ref=e447]:
+      - generic [ref=e448]:
+        - generic [ref=e449]: FAQ
+        - heading "Des questions ? Des reponses." [level=2] [ref=e450]
+      - generic [ref=e451]:
+        - button "Y a-t-il une limite de liens gratuits ?" [ref=e454]:
+          - text: Y a-t-il une limite de liens gratuits ?
+          - img [ref=e455]
+        - button "Combien de temps les statistiques sont-elles conservees ?" [ref=e459]:
+          - text: Combien de temps les statistiques sont-elles conservees ?
+          - img [ref=e460]
+        - button "Puis-je personnaliser le slug de mon lien ?" [ref=e464]:
+          - text: Puis-je personnaliser le slug de mon lien ?
+          - img [ref=e465]
+        - button "ShortLink est-il conforme au RGPD ?" [ref=e469]:
+          - text: ShortLink est-il conforme au RGPD ?
+          - img [ref=e470]
+        - button "Comment fonctionne la protection par mot de passe ?" [ref=e474]:
+          - text: Comment fonctionne la protection par mot de passe ?
+          - img [ref=e475]
+        - button "Puis-je integrer ShortLink a mes outils ?" [ref=e479]:
+          - text: Puis-je integrer ShortLink a mes outils ?
+          - img [ref=e480]
+    - generic [ref=e485]:
+      - heading "Pret a maitriser vos liens ?" [level=2] [ref=e486]
+      - paragraph [ref=e487]: Rejoignez les 500 000 utilisateurs qui font confiance a ShortLink au quotidien.
+      - generic [ref=e488]:
+        - link "Commencer gratuitement" [ref=e489] [cursor=pointer]:
+          - /url: /register
+          - text: Commencer gratuitement
+          - img [ref=e490]
+        - link "Se connecter" [ref=e492] [cursor=pointer]:
+          - /url: /login
+      - paragraph [ref=e493]: Sans carte bancaire · 30 jours d'essai offerts
+  - contentinfo [ref=e494]:
+    - generic [ref=e495]:
+      - generic [ref=e496]:
+        - generic [ref=e497]:
+          - link "S ShortLink" [ref=e498] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e499]: S
+            - generic [ref=e500]: ShortLink
+          - paragraph [ref=e501]: La plateforme de raccourcissement de liens la plus intelligente. Des liens courts, des donnees claires.
+          - generic [ref=e502]:
+            - link "Twitter" [ref=e503] [cursor=pointer]:
+              - /url: /
+              - img [ref=e504]
+            - link "LinkedIn" [ref=e506] [cursor=pointer]:
+              - /url: /
+              - img [ref=e507]
+            - link "GitHub" [ref=e509] [cursor=pointer]:
+              - /url: /
+              - img [ref=e510]
+            - link "YouTube" [ref=e512] [cursor=pointer]:
+              - /url: /
+              - img [ref=e513]
+        - generic [ref=e515]:
+          - heading "Produit" [level=4] [ref=e516]
+          - list [ref=e517]:
+            - listitem [ref=e518]:
+              - link "Fonctionnalites" [ref=e519] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e520]:
+              - link "API" [ref=e521] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e522]:
+              - link "Documentation" [ref=e523] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e524]:
+              - link "Integrations" [ref=e525] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e526]:
+              - link "Tarifs" [ref=e527] [cursor=pointer]:
+                - /url: /
+        - generic [ref=e528]:
+          - heading "Ressources" [level=4] [ref=e529]
+          - list [ref=e530]:
+            - listitem [ref=e531]:
+              - link "Blog" [ref=e532] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e533]:
+              - link "Centre d'aide" [ref=e534] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e535]:
+              - link "Statut" [ref=e536] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e537]:
+              - link "API Status" [ref=e538] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e539]:
+              - link "Communautes" [ref=e540] [cursor=pointer]:
+                - /url: /
+        - generic [ref=e541]:
+          - heading "Entreprise" [level=4] [ref=e542]
+          - list [ref=e543]:
+            - listitem [ref=e544]:
+              - link "A propos" [ref=e545] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e546]:
+              - link "Carrieres" [ref=e547] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e548]:
+              - link "Presse" [ref=e549] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e550]:
+              - link "Partenaires" [ref=e551] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e552]:
+              - link "Contact" [ref=e553] [cursor=pointer]:
+                - /url: /
+      - generic [ref=e554]:
+        - paragraph [ref=e555]: © 2026 ShortLink. Tous droits reserves.
+        - generic [ref=e556]:
+          - generic [ref=e557]:
+            - generic [ref=e558]: Newsletter
+            - generic [ref=e559]:
+              - textbox "Newsletter" [ref=e560]:
+                - /placeholder: Votre email
+              - button "S'abonner" [ref=e561]:
+                - img [ref=e562]
+          - link "Confidentialite" [ref=e564] [cursor=pointer]:
+            - /url: /
+          - link "CGU" [ref=e565] [cursor=pointer]:
+            - /url: /
+          - link "Mentions legales" [ref=e566] [cursor=pointer]:
+            - /url: /

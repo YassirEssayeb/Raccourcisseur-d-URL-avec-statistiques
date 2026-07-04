@@ -8,5 +8,9 @@
   },
   "devDependencies": {
     "concurrently": "^9.1.0"
+  },
+  "dependencies": {
+    "page-agent": "^1.11.0",
+    "three": "^0.185.1"
   }
 }
